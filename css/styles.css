@@ -99,6 +99,7 @@ img {
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -108,6 +109,7 @@ img {
     color: var(--color-iris);
     text-decoration: none;
     margin-bottom: 16px;
+
 }
 
 .logo-dark {
@@ -121,7 +123,7 @@ img {
 /* Header Styles */
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid var(--color-cornflower);
 }
 
 
@@ -196,20 +198,23 @@ img {
 
 /* Hero Styles */
 .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     font-family: "Roboto", sans-serif;
     background-color: var(--color-navy-blue);
 }
 
 .hero-title-container {
-    padding-top: 180px;
+
     padding-bottom: 48px;
     padding-left: 0;
     padding-right: 0;
-    width: 496px;
+    
 }
 
 
 .hero-title {
+    max-width: 496px;
     font-family: var(--primary-font);
     font-size: 56px;
     line-height: 1.07;
@@ -220,10 +225,6 @@ img {
 
 
 /* BUTTON */
-.hero-button-container {
-
-    padding-bottom: 196px;
-}
 
 .btn {
     display: flex;
@@ -239,14 +240,16 @@ img {
 }
 
 .hero-button {
+    display: block; 
     padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--color-iris);
     color: var(--color-white);
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 
 .hero-button:hover,
@@ -261,7 +264,9 @@ img {
 
 /* FEATURE Styles */
 
-.feature {}
+.feature {
+    padding: 120px 0
+}
 
 .feature-title {
     font-family: "Roboto", sans-serif;
@@ -279,10 +284,7 @@ img {
     display: flex;
     gap: 24px;
 
-    padding-top: 112px;
-    padding-bottom: 120px;
-    padding-left: 0px;
-    padding-right: 0px;
+
 
 }
 
@@ -290,12 +292,12 @@ img {
 
 .feature-undertitle {
     font-family: var(--primary-font);
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+    margin-bottom: 8px;
 }
 
 .feature-desc {
@@ -307,12 +309,14 @@ img {
     width: 264px;
 }
 
-.benefits {}
+.benefits {
+    padding-bottom: 120px;
+}
 
 .section {}
 
 .benefits-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 36px;
@@ -326,16 +330,17 @@ img {
 .benefits-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
+.benefits-list-item {}
+
 .team {
+    padding: 120px 0;
     background-color: var(--color-cloud);
 }
 
 .team-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 36px;
@@ -344,22 +349,25 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navy-blue);
+
 }
 
 .team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .team-item {
     width: calc((100% - 3 * 24px) / 4);
     background-color: var(--color-white);
+
 }
 
 .team-item-desc {
     padding: 32px 16px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-undertitle {
@@ -390,9 +398,7 @@ img {
 
 .footer-container {
     padding-top: 100px;
-    padding-left: 156px;
     padding-bottom: 100px;
-
 }
 
 .footer-desc {
