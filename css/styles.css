@@ -207,15 +207,6 @@ img {
     background-color: var(--color-navy-blue);
 }
 
-/* .hero-title-container {
-
-    padding-bottom: 48px;
-    padding-left: 0;
-    padding-right: 0;
-    
-} */
-
-
 .hero-title {
     max-width: 496px;
     font-family: var(--primary-font);
