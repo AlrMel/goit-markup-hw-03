@@ -439,16 +439,8 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    justify-content: center;
-    /* gap: 24px; */
-    margin-bottom: 72px;
-}
 
-/* .card-set {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-} */
+}
 
 .filter-list-item {
     width: calc((100% - 48px) / 3);
@@ -461,7 +453,7 @@ img {
 }
 
 .preview-title {
-
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -478,7 +470,7 @@ img {
 
 /* BUTTON portfolio */
 .filter-btn {
-    
+
     padding: 12px 24px;
     max-width: 126px;
     min-width: 69px;
