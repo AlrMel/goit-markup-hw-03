@@ -448,8 +448,10 @@ img {
 
 .preview-desc {
     padding: 32px 16px;
-    border: 1px solid var(--color-cornflower);
-    border-top: none;
+    border-right: 1px solid var(--color-cornflower);
+    border-bottom: 1px solid var(--color-cornflower);
+    border-left: 1px solid var(--color-cornflower);
+    
 }
 
 .preview-title {
