@@ -246,7 +246,7 @@ img {
 }
 
 .hero-button {
-    display: block; 
+    display: block;
     padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
@@ -423,29 +423,15 @@ img {
 
 /* portfolio  */
 
-/* BUTTON portfolio */
-.filter-btn {
-    padding: 12px 24px;
-    max-width: 126px;
-    min-width: 69px;
-    height: 48px;
-    text-align: center;
-    color: var(--color-iris);
-    background-color: var(--color-cloud);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.filter-btn:hover,
-.filter-btn:focus {
-    color: var(--color-white);
-    background-color: var(--color-ocean);
+.filter {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .filter-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -477,4 +463,22 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+}
+
+/* BUTTON portfolio */
+.filter-btn {
+    padding: 12px 24px;
+    max-width: 126px;
+    min-width: 69px;
+    height: 48px;
+    text-align: center;
+    color: var(--color-iris);
+    background-color: var(--color-cloud);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--color-white);
+    background-color: var(--color-ocean);
 }
