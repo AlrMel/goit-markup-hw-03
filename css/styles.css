@@ -207,13 +207,13 @@ img {
     background-color: var(--color-navy-blue);
 }
 
-.hero-title-container {
+/* .hero-title-container {
 
     padding-bottom: 48px;
     padding-left: 0;
     padding-right: 0;
     
-}
+} */
 
 
 .hero-title {
@@ -224,6 +224,9 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 
